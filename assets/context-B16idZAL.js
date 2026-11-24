@@ -1,1 +1,0 @@
-import{d as e}from"./react-vendor-BO1sdLs5.js";function t(){return e()}export{t};
