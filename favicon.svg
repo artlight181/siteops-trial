@@ -1,0 +1,7 @@
+<!-- 暫用圖示(2026-11-19):正式 logo 交付後整份替換,步驟見 frontend/README.md「圖示」。
+     滿版底色、圖形在中央 80% 安全區內,才能同時當一般圖示與 maskable 圖示。 -->
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#0F1512"/>
+  <rect x="146" y="146" width="220" height="220" rx="44" fill="none" stroke="#F97316" stroke-width="28"/>
+  <path d="M196 258l42 42 82-90" fill="none" stroke="#F97316" stroke-width="32" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
