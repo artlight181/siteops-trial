@@ -1,0 +1,1 @@
+import{d as e}from"./react-vendor-B6Jev9iA.js";function t(){return e()}export{t};
