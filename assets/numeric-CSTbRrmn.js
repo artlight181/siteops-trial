@@ -1,0 +1,1 @@
+function e(e){return e.replace(/[０-９]/g,e=>String.fromCharCode(e.charCodeAt(0)-65248)).replace(/[．。]/g,`.`)}function t(t,n,{negative:r=!1}={}){let i=e(t),a=r&&/^\s*[-－]/.test(i)?`-`:``;if(n===`numeric`)return a+i.replace(/\D/g,``);let o=i.replace(/[^\d.]/g,``),s=o.indexOf(`.`);return a+(s<0?o:o.slice(0,s+1)+o.slice(s+1).replace(/\./g,``))}export{t};
