@@ -1,1 +1,0 @@
-function e(e){return{from:e}}function t(e){let t=e?.from;return t===`calendar`||t===`cost`||t===`project`?t:`board`}function n(e,t,n){return e===`project`&&n?{to:`/office/projects/${n}?tab=photos`,label:`← 專案`}:e===`calendar`?{to:`/office/calendar?date=${t}`,label:`← 派工行事曆`}:e===`cost`?{to:`/office/cost`,label:`← 人力成本`}:{to:`/office`,label:`← 今日看板`}}export{e as n,t as r,n as t};
