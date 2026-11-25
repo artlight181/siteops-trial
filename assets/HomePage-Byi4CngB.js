@@ -1,1 +1,0 @@
-import{o as e,t}from"./react-vendor-0_AyuTrV.js";import{t as n}from"./useValidSession-CcPBVS0r.js";var r=t();function i(){let t=n();return t===void 0?(0,r.jsx)(`p`,{className:`text-fg-muted`,children:`讀取中…`}):t===null?(0,r.jsx)(e,{to:`/`,replace:!0}):(0,r.jsx)(e,{to:t.role===`field`?`/field`:`/office`,replace:!0})}export{i as HomePage};
