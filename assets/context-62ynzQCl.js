@@ -1,1 +1,0 @@
-import{p as e}from"./react-vendor-DnudbT06.js";function t(){return e()}export{t};

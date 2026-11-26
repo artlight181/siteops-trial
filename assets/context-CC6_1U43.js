@@ -1,0 +1,1 @@
+import{p as e}from"./react-vendor-a7kE1aJc.js";function t(){return e()}export{t};
