@@ -1,0 +1,1 @@
+import{_ as e}from"./index-C-BG2yxB.js";var t={vendor:`外包廠商`,individual:`個人承攬`,internal:`內部人員`},n={start:`開工打卡`,progress:`過程回報`,end:`收工打卡`};function r(t,n){return t===`monthly`?`月薪 ${e(n)} 元`:`日薪 ${e(n)} 元`}function i(e){return[e.location,e.model,e.workType].filter(Boolean).join(` · `)}function a(t){return t===null?`—`:`${e(t)} 元`}export{r as a,a as i,n,i as r,t};
