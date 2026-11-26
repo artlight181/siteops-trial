@@ -1,1 +1,0 @@
-import{o as e,s as t,t as n}from"./react-vendor-a7kE1aJc.js";var r=n();function i(){let[n]=e(),i=n.get(`date`),a=new URLSearchParams({view:`month`});return i&&/^\d{4}-\d{2}-\d{2}$/.test(i)&&a.set(`date`,i),(0,r.jsx)(t,{to:`/office?${a.toString()}`,replace:!0})}export{i as CalendarRedirect};
